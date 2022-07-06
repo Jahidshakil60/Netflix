@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Homes from "../components/homes/Homes"
 import Trending from '../components/trending/Trending'
-import Upcomming from '../components/Upcomming/Upcomming'
+import Upcomming from '../components/upcomming/Upcomming'
 import {upcome , latest, recommended} from "../data"
 
 function HomePages() {

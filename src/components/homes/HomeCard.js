@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genres, tags, video } }) => {
+const HomeCard = ({ item: { url,id, cover, name, rating, time, desc, starring, genres, tags, video } }) => {
   return (
     <>
       <div className='box'>
@@ -43,7 +43,7 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
             </button>
           </div>
           <div className='palyButton row'>
-            <Link to={`/singlepage/${id}`}>
+            <Link to={`singlepage/${id}`}>
               <button>
                 <div className='img'>
                   <img src='./images/play-button.png' alt='' />

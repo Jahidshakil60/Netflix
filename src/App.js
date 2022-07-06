@@ -11,10 +11,12 @@ function App() {
   
          <Header />
          <Routes>
-         <Route exact path='/' element={<HomePages />} />
-         <Route path='/singlepage/:id' component={<SinglePage />} exact />
+          <Route exact path='/' element={<HomePages />} />
+          <Route exact path='/singlepage/:id' element={<SinglePage />} />
+         
          </Routes>
          <Footer />
+        
     </div>
   );
 }
