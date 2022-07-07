@@ -9,7 +9,7 @@ export const homeData = [
       genres: "Action",
       tags: "Action, Adventures, Horror",
       cover: "../images/home1.jpg",
-      video:' https://youtu.be/JKa05nyUmuQ',
+      video:' ../video/video1.mp4',
       date: "20-Jan-1997",
     },
     {
